@@ -1,3 +1,3 @@
 ## Test actions
 
-This should not trigger an action
+This should trigger an action
