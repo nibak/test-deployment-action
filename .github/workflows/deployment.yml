@@ -1,7 +1,7 @@
 name: Deployment test
 on:
   pull_request:
-    branches-ignore:
+    branches:
       - main
   push:
     branches-ignore:
