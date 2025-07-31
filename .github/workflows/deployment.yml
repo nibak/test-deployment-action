@@ -4,9 +4,8 @@ on:
     branches:
       - main
   push:
-    branches:
-      - '**'
-      - '!main'
+    branches-ignore:
+      - main
     tags:
       - '*'
   workflow_dispatch:
